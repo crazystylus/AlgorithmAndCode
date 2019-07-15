@@ -1,0 +1,31 @@
+C.I.
+####
+A = P*(1+0.r/n)^(n*t)
+I = A - P
+
+S.I.
+####
+I = R*T*P/100
+
+MIXTURES
+########
+If y amount of liquid is taken from x and replaced with water,
+this is done n times :-
+Amount of pure liquid = x*(1-y/x)^n
+
+COMBINATIONS
+############
+nCr = n!/(r!*(n-r)!)
+
+PERMUTATIONS
+############
+nPr = n!/r!
+
+Circular --> (n-1)!
+Free Circular --> (n-1)!/2
+
+POLYGON
+############
+Interior Angles(regular n-gon) --> 180 - 360/n
+InCenter --> AngleBisector, Drops perpendicular on sides
+Circumcenter --> Passes through all vectices
