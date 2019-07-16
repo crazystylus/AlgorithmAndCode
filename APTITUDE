@@ -24,6 +24,22 @@ nPr = n!/r!
 Circular --> (n-1)!
 Free Circular --> (n-1)!/2
 
+SUM of n digit number using digits { ... }
+If no repition allowed and 0 not allowed --> (sum of digits)*(10^(n-1)+10^(n-2)...10^0)*(n-1)!
+If repititon allowed(no 0) --> (sum of digits)*(10^(n-1)+10^(n-2)...10^0)*n^(n-1)
+When 0 included, subtract including 0 ans with exclusing zero for (n-1) digit number
+
+Number of Divisors
+number = x^a * y^b * z^c
+no of divisors = (a+1)*(b+1)*(c+1)
+
+Sum of divisors
+144 = 2^4 * 3^2
+S(144) = S(2^4 * 3^3) = S(2^4)*S(3^3)
+ = (1+2+4+8+16)*(1+3+9+27) =ANS
+The above is sum of a G.P. for each prime factor so
+S(a*r^n) = a*(r^(n-1)-1)/(r-1) // Here n-1 because its 0-n not 1-n, a == r == prime_number
+
 POLYGON
 ############
 Interior Angles(regular n-gon) --> 180 - 360/n
