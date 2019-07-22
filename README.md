@@ -1,4 +1,5 @@
 # Data Structure Algorithms implemented in C++ STL
+<pre>
 a) Graph Theory
 	1. BFS
 	2. DFS
@@ -10,3 +11,4 @@ b) Array and Dynamic Programming
 	3. Largest Contigious Sum
 	4. Maximum Product SubArray
 	5. LIS(Strictly Monotonically Increasing)
+</pre>
